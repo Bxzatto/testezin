@@ -1,0 +1,30 @@
+{
+    "name": "bea/cora",
+    "description": "eeeeh",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors":[ {
+        "name": "Beatriz",
+        "email": "beatrizbizatto23@gmail.com",
+        "role": "developer"
+    }
+],
+    "config": {
+    "vendor-dir": "vendor"
+},
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "php": "^7.3",
+        "ext-pdo":"*",
+        "coffeecode/datalayer": "1.1.2",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "v4.0.0-alpha"
+    }
+}
